@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation'
+import Builder from '@/components/builder/Builder'
 
-export default function Home() {
-  redirect('/admin')
+export default function HomePage() {
+  return <Builder />
 }
