@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "node server.js"
+    "build": "next build"
   },
   "dependencies": {
     "grapesjs": "0.23.6",
